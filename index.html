@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+	<title>weather</title>
+	<meta http-equiv="Content-type" content="text/html;charset=UTF-8" />
+	<meta name="viewport" content="width=1000" />
+	<link rel="stylesheet" href="css/style.css" />
+</head>
+
+<body>
+	<div class="container">
+		<div class="search">
+			<img class='location' src="img/location.png" alt="no img :()">
+			<input class='input' type="text" placeholder='enter ur location'>
+			<button class='btn'>search</button>
+		</div>
+		<div class="error">
+			<p>invalid city name</p>
+		</div>
+		<div class="main">
+			<img class='weather' src="img/weather.svg" alt="no img :()">
+			<h1 class="temp">19 &#8451</h1>
+			<h2 class="city">moscow</h2>
+			<div class="desc">
+				<div class="col">
+					<img class='humidity' src="img/humidity.png" alt="no img :(">
+					<div class="details">
+						<p class="humidity-text">30%</p>
+						<p class="text1">humidity</p>
+					</div>
+				</div>
+				<div class="col">
+					<img class='wind' src="img/wind.png" alt="no img :(">
+					<div class="details">
+						<p class="wind-text">10 km/h</p>
+						<p class="text2">wind speed</p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<script src="js/main.js">
+	</script>
+</body>
+
+</html>
